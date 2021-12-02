@@ -13,7 +13,9 @@ Create folder telegraf and write configurations in telegraf.conf
 Configuration files for each component are stored using the volumes section of the docker compose file. Docker volume creates a new volume that container can consume and store data in it.
 
 Run command: $sudo docker-compose up
+
 Open influxdb in browser http://localhost:8086
+
 Open chronograf in browser http://localhost:8888
 Goto connection Configuration, connect to InfluxDB and kapacitor here by assigning API tokens respectively. Here also a unique token is required to access the influxdb from chronograf which makes it secure connection.
 
